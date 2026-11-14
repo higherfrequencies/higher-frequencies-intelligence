@@ -1,0 +1,7 @@
+import assert from 'node:assert/strict';
+import {empty,validate} from '../modules/storage.js';
+import {upsertBusiness,duplicateOf,searchBusinesses,coverage} from '../modules/businesses.js';
+import {assess,latest} from '../modules/opportunities.js';
+import {createCampaign,addProspect,metrics} from '../modules/campaigns.js';
+import {saveReport,reportText} from '../modules/reports.js';
+const db=empty();const b=upsertBusiness(db,{name:'Test entity (synthetic; never shipped)',region:'Christchurch',category:'Services',size:'Small',sources:'https://example.org',verification:'Unverified'});assert.equal(db.sources.length,1);assert.equal(searchBusinesses(db,{query:'Test entity'}).length,1);assert.equal(coverage(db)[1].Small,1);assert.equal(duplicateOf(db,{name:b.name,region:b.region}),b);assert.throws(()=>upsertBusiness(db,{name:b.name,region:b.region}));const o=assess(db,b.id,{photography:3,video:3,recurring:2,readiness:2,timing:2,evidence:2},'Synthetic assessment for test');assert.equal(o.category,'A');assert.equal(latest(db,b.id).id,o.id);const c=createCampaign(db,'Test campaign','2027-Q1');addProspect(db,c.id,b.id);assert.equal(metrics(db,c.id).selected,1);assert.match(reportText(db,b.id),/SOURCE CITATIONS/);saveReport(db,b.id);assert.equal(db.reports.length,1);assert.equal(validate(db).businesses.length,1);console.log('PASS: research, duplicate prevention, filters, scoring, campaign, report, backup shape');
