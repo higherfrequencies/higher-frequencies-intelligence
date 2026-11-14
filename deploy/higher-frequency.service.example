@@ -1,0 +1,22 @@
+# Template only. Review and customise path and user before installing as a systemd user service.
+# Do not run as root; keep the application bound to 127.0.0.1.
+[Unit]
+Description=Higher Frequencies Intelligence Portal (private loopback)
+After=network-online.target
+Wants=network-online.target
+[Service]
+Type=simple
+WorkingDirectory=%h/higher-frequency
+ExecStart=/usr/bin/node server.mjs
+Environment=PORT=4173
+Environment=HF_HTTPS=0
+EnvironmentFile=-%h/.config/higher-frequency/runtime.env
+Restart=on-failure
+RestartSec=10
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ReadWritePaths=%h/higher-frequency/data/runtime
+[Install]
+WantedBy=default.target
