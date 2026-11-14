@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "classification": "manually transcribed factual observations, not live API results",
+    "observedAt": "2026-11-13",
+    "publisher": "ChristchurchNZ",
+    "sourceCatalogue": "https://www.christchurchnz.com/visit/whats-on",
+    "copyright": "Only concise factual metadata transcribed; no editorial descriptions or site scraping",
+    "note": "Information may change. An organiser is named only where the original listing explicitly identifies one. No interest in Higher Frequencies verified."
+  },
+  "provider": "christchurchnz",
+  "records": [
+    {
+      "externalKey": "encraftment-christmas-market-2026-15793",
+      "title": "Encraftment Christmas Market 2026",
+      "url": "https://www.christchurchnz.com/visit/whats-on/listing/encraftment-christmas-market-2026-15793",
+      "location": "Pioneer, Christchurch",
+      "region": "Canterbury",
+      "startDate": "2026-11-21",
+      "endDate": "2026-11-22",
+      "organiser": "Encraftment Market",
+      "type": "event",
+      "category": "market",
+      "publisher": "ChristchurchNZ",
+      "sourceObservedAt": "2026-11-13",
+      "description": "Handmade goods market and food stalls; listed for 21–22 November.",
+      "quality": "attributed"
+    },
+    {
+      "externalKey": "mitre10-sparks-16162",
+      "title": "Mitre10 Sparks",
+      "url": "https://www.christchurchnz.com/visit/whats-on/listing/mitre10-sparks-16162",
+      "location": "Christchurch",
+      "region": "Canterbury",
+      "startDate": "2027-02-13",
+      "organiser": "Christchurch City Council",
+      "type": "event",
+      "category": "cultural",
+      "publisher": "ChristchurchNZ",
+      "sourceObservedAt": "2026-11-13",
+      "description": "Public concert and fireworks event with Christchurch Symphony Orchestra.",
+      "quality": "attributed"
+    },
+    {
+      "externalKey": "crankworx-christchurch-2027",
+      "title": "Crankworx Christchurch 2027",
+      "url": "https://www.christchurchnz.com/visit/whats-on/crankworx-christchurch",
+      "location": "Christchurch Adventure Park, Christchurch",
+      "region": "Canterbury",
+      "startDate": "2027-02-18",
+      "endDate": "2027-02-21",
+      "type": "event",
+      "category": "sports",
+      "publisher": "ChristchurchNZ",
+      "sourceObservedAt": "2026-11-13",
+      "description": "Mountain biking event with downhill, slopestyle and pump track events.",
+      "quality": "attributed"
+    },
+    {
+      "externalKey": "blackcaps-india-test-2026",
+      "title": "BLACKCAPS v India Test Match",
+      "url": "https://www.christchurchnz.com/visit/whats-on/blackcaps-v-india-test-match",
+      "location": "Hagley Oval, Christchurch",
+      "region": "Canterbury",
+      "startDate": "2026-11-27",
+      "endDate": "2026-12-01",
+      "type": "event",
+      "category": "sports",
+      "publisher": "ChristchurchNZ",
+      "sourceObservedAt": "2026-11-13",
+      "description": "International five-day cricket fixture at Hagley Oval.",
+      "quality": "attributed"
+    },
+    {
+      "externalKey": "all-whites-india-2026",
+      "title": "All Whites v India",
+      "url": "https://www.christchurchnz.com/visit/whats-on/all-whites-v-india",
+      "location": "One New Zealand Stadium, Christchurch",
+      "region": "Canterbury",
+      "startDate": "2026-11-15",
+      "type": "event",
+      "category": "sports",
+      "publisher": "ChristchurchNZ",
+      "sourceObservedAt": "2026-11-13",
+      "description": "International football fixture scheduled for 15 November 2026.",
+      "quality": "attributed"
+    }
+  ]
+}

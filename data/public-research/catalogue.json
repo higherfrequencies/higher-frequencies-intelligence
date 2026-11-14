@@ -1,0 +1,315 @@
+[
+  {
+    "id": "statsnz-bds-2026-national",
+    "publisher": "Stats NZ",
+    "title": "New Zealand business demography statistics: At February 2026",
+    "sourceUrl": "https://www.stats.govt.nz/information-releases/new-zealand-business-demography-statistics-at-february-2026/",
+    "publishedAt": "2026-10-30",
+    "observedAt": "2026-11-13",
+    "period": "2026-02",
+    "kind": "market",
+    "scope": "New Zealand",
+    "claims": [
+      {
+        "subject": "New Zealand",
+        "predicate": "economically significant enterprises",
+        "value": 620150,
+        "period": "2026-02",
+        "scope": "New Zealand",
+        "methodology": "Stats NZ business demography, provisional"
+      },
+      {
+        "subject": "New Zealand",
+        "predicate": "business locations",
+        "value": 656980,
+        "period": "2026-02",
+        "scope": "New Zealand",
+        "methodology": "Stats NZ business demography, provisional"
+      }
+    ],
+    "limitations": [
+      "Counts are provisional and not a directory of potential customers",
+      "Does not indicate purchasing intent"
+    ]
+  },
+  {
+    "id": "statsnz-bds-2026-canterbury",
+    "publisher": "Stats NZ",
+    "title": "Canterbury business location annual change, February 2026",
+    "sourceUrl": "https://www.stats.govt.nz/information-releases/new-zealand-business-demography-statistics-at-february-2026/",
+    "publishedAt": "2026-10-30",
+    "observedAt": "2026-11-13",
+    "period": "2026-02",
+    "kind": "market",
+    "scope": "Canterbury",
+    "claims": [
+      {
+        "subject": "Canterbury",
+        "predicate": "annual change in business locations",
+        "value": 1590,
+        "period": "2025-02 to 2026-02",
+        "scope": "Canterbury",
+        "methodology": "Stats NZ business demography, provisional"
+      },
+      {
+        "subject": "Canterbury",
+        "predicate": "annual change in employees",
+        "value": 3900,
+        "period": "2025-02 to 2026-02",
+        "scope": "Canterbury",
+        "methodology": "Stats NZ business demography, provisional"
+      }
+    ],
+    "limitations": [
+      "Region-wide figures, not Christchurch-specific",
+      "No inference about demand for creative services"
+    ]
+  },
+  {
+    "id": "ccc-business-economy-2025",
+    "publisher": "Christchurch City Council",
+    "title": "Facts, stats and figures: city economy",
+    "sourceUrl": "https://ccc.govt.nz/culture-and-community/statistics-and-facts/facts-stats-and-figures",
+    "publishedAt": null,
+    "observedAt": "2026-11-13",
+    "period": "2025-02",
+    "kind": "market",
+    "scope": "Christchurch City",
+    "claims": [
+      {
+        "subject": "Christchurch City",
+        "predicate": "approximate business count",
+        "value": 48200,
+        "period": "2025-02",
+        "scope": "Christchurch City",
+        "methodology": "Christchurch City Council published economic profile"
+      },
+      {
+        "subject": "Christchurch City",
+        "predicate": "reported employees",
+        "value": 238000,
+        "period": "2025-02",
+        "scope": "Christchurch City",
+        "methodology": "Christchurch City Council published economic profile"
+      }
+    ],
+    "limitations": [
+      "Around 48,200 is approximate, not an exact register",
+      "No identifiable contacts or buying intent"
+    ]
+  },
+  {
+    "id": "ccc-industry-employment-2025",
+    "publisher": "Christchurch City Council",
+    "title": "Christchurch City employment by leading industry, February 2025",
+    "sourceUrl": "https://ccc.govt.nz/culture-and-community/statistics-and-facts/facts-stats-and-figures",
+    "publishedAt": null,
+    "observedAt": "2026-11-13",
+    "period": "2025-02",
+    "kind": "market",
+    "scope": "Christchurch City",
+    "claims": [
+      {
+        "subject": "Christchurch City / Health Care and Social Assistance",
+        "predicate": "reported employees",
+        "value": 33300,
+        "period": "2025-02",
+        "scope": "Christchurch City",
+        "methodology": "Christchurch City Council economic profile"
+      },
+      {
+        "subject": "Christchurch City / Retail Trade",
+        "predicate": "reported employees",
+        "value": 23000,
+        "period": "2025-02",
+        "scope": "Christchurch City",
+        "methodology": "Christchurch City Council economic profile"
+      },
+      {
+        "subject": "Christchurch City / Manufacturing",
+        "predicate": "reported employees",
+        "value": 22100,
+        "period": "2025-02",
+        "scope": "Christchurch City",
+        "methodology": "Christchurch City Council economic profile"
+      },
+      {
+        "subject": "Christchurch City / Professional Scientific and Technical Services",
+        "predicate": "reported employees",
+        "value": 22100,
+        "period": "2025-02",
+        "scope": "Christchurch City",
+        "methodology": "Christchurch City Council economic profile"
+      },
+      {
+        "subject": "Christchurch City / Construction",
+        "predicate": "reported employees",
+        "value": 20800,
+        "period": "2025-02",
+        "scope": "Christchurch City",
+        "methodology": "Christchurch City Council economic profile"
+      }
+    ],
+    "limitations": [
+      "Sector employment does not identify individual businesses, contacts or marketing needs",
+      "Reported values may be rounded",
+      "No evidence of purchasing intent or demand for creative services"
+    ]
+  },
+  {
+    "id": "statsnz-bds-2026-national-industries",
+    "publisher": "Stats NZ",
+    "title": "Industry-level enterprise and employee counts, February 2026",
+    "sourceUrl": "https://www.stats.govt.nz/information-releases/new-zealand-business-demography-statistics-at-february-2026/",
+    "publishedAt": "2026-10-30",
+    "observedAt": "2026-11-13",
+    "period": "2026-02",
+    "kind": "market",
+    "scope": "New Zealand",
+    "claims": [
+      {
+        "subject": "New Zealand / Health care and social assistance",
+        "predicate": "employees in economically significant enterprises",
+        "value": 296500,
+        "period": "2026-02",
+        "scope": "New Zealand",
+        "methodology": "Stats NZ business demography, provisional; employee counts are not official employment statistics"
+      },
+      {
+        "subject": "New Zealand / Health care and social assistance",
+        "predicate": "economically significant enterprises",
+        "value": 26690,
+        "period": "2026-02",
+        "scope": "New Zealand",
+        "methodology": "Stats NZ business demography, provisional"
+      },
+      {
+        "subject": "New Zealand / Education and training",
+        "predicate": "economically significant enterprises",
+        "value": 11110,
+        "period": "2026-02",
+        "scope": "New Zealand",
+        "methodology": "Stats NZ business demography, provisional"
+      },
+      {
+        "subject": "New Zealand / Education and training",
+        "predicate": "employees in economically significant enterprises",
+        "value": 208860,
+        "period": "2026-02",
+        "scope": "New Zealand",
+        "methodology": "Stats NZ business demography, provisional; employee counts are not official employment statistics"
+      },
+      {
+        "subject": "New Zealand / Construction",
+        "predicate": "employees in economically significant enterprises",
+        "value": 195600,
+        "period": "2026-02",
+        "scope": "New Zealand",
+        "methodology": "Stats NZ business demography, provisional; employee counts are not official employment statistics"
+      }
+    ],
+    "limitations": [
+      "National industry figures, not a Christchurch prospect list",
+      "Employees are not official employment statistics",
+      "No source identifies purchasing intent or demand for photography or video services"
+    ]
+  },
+  {
+    "id": "ccc-economy-gdp-2025",
+    "publisher": "Christchurch City Council",
+    "title": "Christchurch City GDP for year to March 2025",
+    "sourceUrl": "https://ccc.govt.nz/culture-and-community/statistics-and-facts/facts-stats-and-figures",
+    "publishedAt": null,
+    "observedAt": "2026-11-13",
+    "period": "year-ended-2025-03",
+    "kind": "market",
+    "scope": "Christchurch City",
+    "claims": [
+      {
+        "subject": "Christchurch City",
+        "predicate": "reported GDP in NZD billions",
+        "value": 36.6,
+        "period": "year-ended-2025-03",
+        "scope": "Christchurch City",
+        "methodology": "Christchurch City Council economic profile"
+      },
+      {
+        "subject": "Christchurch City",
+        "predicate": "reported annual GDP change percentage",
+        "value": -0.3,
+        "period": "year-ended-2025-03",
+        "scope": "Christchurch City",
+        "methodology": "Christchurch City Council economic profile"
+      }
+    ],
+    "limitations": [
+      "GDP figures are retrospective macroeconomic observations, not business leads",
+      "No association with Higher Frequencies revenue forecasts, client purchasing intent or advertising demand"
+    ]
+  },
+  {
+    "id": "christchurchnz-about-2026",
+    "publisher": "ChristchurchNZ",
+    "title": "About ChristchurchNZ — official organisation description",
+    "sourceUrl": "https://www.christchurchnz.com/about",
+    "publishedAt": null,
+    "observedAt": "2026-11-13",
+    "period": "2026-11",
+    "kind": "organisation",
+    "scope": "Christchurch, New Zealand",
+    "organisation": {
+      "name": "ChristchurchNZ",
+      "sector": "economic development and destination promotion",
+      "locality": "Christchurch",
+      "website": "https://www.christchurchnz.com/",
+      "observation": "Its official About page describes ChristchurchNZ as the sustainable economic development agency for Ōtautahi Christchurch."
+    },
+    "claims": [
+      {
+        "subject": "ChristchurchNZ",
+        "predicate": "self-described function",
+        "value": "sustainable economic development agency",
+        "period": "2026-11",
+        "scope": "Christchurch",
+        "methodology": "Official organisation About page, observed snapshot"
+      }
+    ],
+    "limitations": [
+      "Official self-description, not independently verified legal identity",
+      "Not a commercial lead, customer, procurement opportunity or indicator of purchasing intent",
+      "No claim that the organisation wishes to purchase Higher Frequencies services"
+    ]
+  },
+  {
+    "id": "nzgovt-christchurch-council-2026",
+    "publisher": "New Zealand Government",
+    "title": "Christchurch City Council — government organisation listing",
+    "sourceUrl": "https://www.govt.nz/organisations/christchurch-city-council/",
+    "publishedAt": null,
+    "observedAt": "2026-11-13",
+    "period": "2026-11",
+    "kind": "organisation",
+    "scope": "Christchurch, New Zealand",
+    "organisation": {
+      "name": "Christchurch City Council",
+      "sector": "local government",
+      "locality": "Christchurch",
+      "website": "https://ccc.govt.nz/",
+      "observation": "The New Zealand Government directory lists Christchurch City Council as the territorial authority providing local services."
+    },
+    "claims": [
+      {
+        "subject": "Christchurch City Council",
+        "predicate": "government directory classification",
+        "value": "city council",
+        "period": "2026-11",
+        "scope": "Christchurch",
+        "methodology": "New Zealand Government organisation listing observed snapshot"
+      }
+    ],
+    "limitations": [
+      "Government listing, not evidence of creative-services purchasing intent",
+      "No contact extraction, outreach or procurement inference"
+    ]
+  }
+]
