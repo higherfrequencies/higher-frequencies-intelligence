@@ -1,0 +1,132 @@
+{
+  "files": {
+    "core/department-routing.mjs": [
+      {
+        "archive": "Higher_Frequencies_Department_Routing_Integration(1).zip",
+        "sha256": "daaa639197c8e260ceec73b46fab00a54a63f6d4abdc32a3e300b203dcf35b84",
+        "bytes": 1840
+      }
+    ],
+    "tests/department-routing.test.mjs": [
+      {
+        "archive": "Higher_Frequencies_Department_Routing_Integration(1).zip",
+        "sha256": "a2432e633234d4c72f55b2b41a8c8bf77d1109722a483d6f18bd190cabcd4ee6",
+        "bytes": 1944
+      }
+    ],
+    "docs/architecture/DEPARTMENT-ROUTING.md": [
+      {
+        "archive": "Higher_Frequencies_Department_Routing_Integration(1).zip",
+        "sha256": "e96605f319fc7d3dae230b36345fdcc1fe24bcf81dc9fded45e1124382991997",
+        "bytes": 1311
+      }
+    ],
+    "core/handoff-coordinator.mjs": [
+      {
+        "archive": "Higher_Frequencies_Handoff_Reconciliation_Update(1).zip",
+        "sha256": "ef9d9c061eaac06ae060ea4d9577a9553715c8f2ff2a8daa25dfcdcea5ad51bf",
+        "bytes": 5731
+      }
+    ],
+    "tests/handoff-coordinator.test.mjs": [
+      {
+        "archive": "Higher_Frequencies_Handoff_Reconciliation_Update(1).zip",
+        "sha256": "5a62ae3b35a5934e93617d38030fb03bfebd0118263def5f88230e4ab64ce811",
+        "bytes": 2885
+      }
+    ],
+    "docs/architecture/HANDOFF-RECONCILIATION.md": [
+      {
+        "archive": "Higher_Frequencies_Handoff_Reconciliation_Update(1).zip",
+        "sha256": "0639617da9b6b16a3d64f1f3df8f7886dac4a6f54fba84424c3660bcffba7317",
+        "bytes": 2443
+      }
+    ],
+    "core/smart-exchange-bridge.mjs": [
+      {
+        "archive": "Higher_Frequencies_Offline_Smart_Exchange_Bridge(1).zip",
+        "sha256": "32a66ede3c59f147011ee37403d6328c1050f5cc74158ad9449191a2854b47a6",
+        "bytes": 2580
+      }
+    ],
+    "tests/smart-exchange-bridge.test.mjs": [
+      {
+        "archive": "Higher_Frequencies_Offline_Smart_Exchange_Bridge(1).zip",
+        "sha256": "1e020fc1396af66ef8b2dee72df3ab71e29645bff10a1ec130fe40d78241b52b",
+        "bytes": 1744
+      }
+    ],
+    "docs/architecture/SMART-LAYER-OFFLINE-BRIDGE.md": [
+      {
+        "archive": "Higher_Frequencies_Offline_Smart_Exchange_Bridge(1).zip",
+        "sha256": "ad81d2f174b26e8c33db6b7b81a2f3b7cb53c02644f7dd5668f11e763012dfd0",
+        "bytes": 1137
+      }
+    ],
+    "core/reconciliation-service.mjs": [
+      {
+        "archive": "Higher_Frequencies_Recovery_Readiness_Update(1).zip",
+        "sha256": "b079a5ecfca727a89ec5c35db3c76d65a953f9e40f4879167c0f8cf5d6109071",
+        "bytes": 1704
+      }
+    ],
+    "tests/reconciliation-service.test.mjs": [
+      {
+        "archive": "Higher_Frequencies_Recovery_Readiness_Update(1).zip",
+        "sha256": "a1b733d1699f5b74de2d7852ddc9a142038fd402b13f1e354a5425a18acdb143",
+        "bytes": 1325
+      }
+    ],
+    "docs/architecture/UNATTENDED-RECOVERY-READINESS.md": [
+      {
+        "archive": "Higher_Frequencies_Recovery_Readiness_Update(1).zip",
+        "sha256": "5c30ab88613aff785ab68acc95434095543ea23cf95a8ffae3c9f81f49d4f4a3",
+        "bytes": 1468
+      }
+    ],
+    "core/information-intelligence.mjs": [
+      {
+        "archive": "Higher_Frequencies_Smart_Layers_Update(1).zip",
+        "sha256": "d42f36990439a4469a9ca5d41283afaf8d033d6c4cb2fd5c58748c79f51500bc",
+        "bytes": 2595
+      }
+    ],
+    "core/workflow-intelligence.mjs": [
+      {
+        "archive": "Higher_Frequencies_Smart_Layers_Update(1).zip",
+        "sha256": "3fbf281d5e7ff770097b9bd5342a548a71e24241bb67c59e04eedb6fdc49cadf",
+        "bytes": 1562
+      }
+    ],
+    "core/learning-intelligence.mjs": [
+      {
+        "archive": "Higher_Frequencies_Smart_Layers_Update(1).zip",
+        "sha256": "4748ea3feb3adbd4e8467229d2938779966fcb8ad7d8686a172c8b47d295dfad",
+        "bytes": 1288
+      }
+    ],
+    "core/intelligence-orchestrator.mjs": [
+      {
+        "archive": "Higher_Frequencies_Smart_Layers_Update(1).zip",
+        "sha256": "ed7ae5501d7c6736fde50e63250a0d53a4d3f26c091f288b9614032991f2583b",
+        "bytes": 1068
+      }
+    ],
+    "docs/architecture/SMART-LAYERS.md": [
+      {
+        "archive": "Higher_Frequencies_Smart_Layers_Update(1).zip",
+        "sha256": "7df4b54d1d9706f30066b9884d3c4b08cc919c352df5f18609891552750c9bfd",
+        "bytes": 1761
+      }
+    ],
+    "tests/smart-layers.test.mjs": [
+      {
+        "archive": "Higher_Frequencies_Smart_Layers_Update(1).zip",
+        "sha256": "8e40e4aaf848efa7804d2e33f663a73923f1795ae7eebe812a1209d12ee06b06",
+        "bytes": 3106
+      }
+    ]
+  },
+  "conflicts": [],
+  "archives": 5
+}

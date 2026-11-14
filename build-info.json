@@ -1,0 +1,8 @@
+{
+  "buildId": "HF-WIN-20261114-CROSS-SOURCE-CLAIM-REVIEW",
+  "version": "0.1-cross-source-claim-review-candidate",
+  "release": "Integrated source-attributed factual claim comparison, persisted tenant-isolated Research candidates, monitoring UI; native Windows/live source pending",
+  "buildDate": "2026-11-14",
+  "browserAcceptance": "110 mediated Chromium checks passed; native browser navigation/CSP not independently verified",
+  "nativeWindowsAcceptance": "Not executed; owner data unchanged"
+}
