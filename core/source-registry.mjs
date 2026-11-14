@@ -1,0 +1,30 @@
+/** Expansion catalogue: planned sources are NEVER interpreted as installed or verified connectors. */
+const definitions=[
+ ['nzbn','NZBN / public NZ business identity','business','subscription_api','Subscription key and approval required','https://portal.api.business.govt.nz/api/nzbn'],
+ ['companies','NZ Companies Register','business','provider_approved_api','Use NZBN for public company details; Companies API needs authorisation for filing','https://portal.api.business.govt.nz/api/companies-register'],
+ ['company-websites','Official business websites','business','case_by_case','Website-specific permission or manually attributable observation',null],
+ ['business-directories','Permitted business directories and associations','business','case_by_case','Licence, terms or permitted publisher exports must be checked',null],
+ ['eventfinda','Eventfinda','events','credentialled_api','Approved API access and usage terms required','https://www.eventfinda.co.nz/api/v2/category'],
+ ['eventbrite','Eventbrite','events','oauth_api','Authorised OAuth scope and applicable permissions required','https://www.eventbrite.com/platform/docs/authentication'],
+ ['ticketmaster','Ticketmaster Discovery','events','credentialled_api','HF_TICKETMASTER_API_KEY required','https://developer.ticketmaster.com/products-and-docs/apis/discovery-api/v2/'],
+ ['christchurchnz','ChristchurchNZ listings','events','manual_attributed_snapshot','No automated public feed authorisation established','https://www.christchurchnz.com/visit/whats-on'],
+ ['venue-calendars','Venues, theatres, festivals and sports calendars','events','case_by_case','Official feed, publisher approval or manual import',null],
+ ['marae-iwi','Official marae, iwi, hapū organisation publications','community_culture','sensitive_manual_review','Tikanga, consent, data sovereignty and source-specific reuse review required',null],
+ ['maori-enterprise','Māori enterprise and arts programmes','community_culture','sensitive_manual_review','Use official public information with cultural review and correction capability',null],
+ ['community','Charities, churches, clubs and community organisations','community','case_by_case','Organisation-published information only; avoid personal or sensitive profiling',null],
+ ['beehive','Beehive government media release RSS','publications','official_rss','Official publisher feed; metadata only; no verified live run yet','https://www.beehive.govt.nz/rss.xml'],
+ ['media-rss','Publisher-authorised RSS and Atom','publications','feed_by_permission','Respect content licensing and source-specific feed terms',null],
+ ['publisher-newsletters','Subscribed newsletters and journals','publications','approved_import','Subscription or rights holder permission required',null],
+ ['creative-nz','Creative New Zealand funding notices','funding','approved_import','Verify eligibility and deadlines against official notice','https://creativenz.govt.nz/'],
+ ['govt-procurement','NZ public tenders and commissioning','funding','approved_import','Use officially permitted notices; verify open status','https://www.gets.govt.nz/'],
+ ['community-grants','Council, philanthropic and cultural grants','funding','approved_import','Official programmes and application requirements verified individually',null],
+ ['datagovt','data.govt.nz CKAN metadata','government','open_api','Open metadata API; individual dataset licence applies','https://catalogue.data.govt.nz/api/3/action/package_search'],
+ ['statsnz','Stats NZ statistical publications','government','credential_or_approved_export','Check dataset access/API subscription and reuse','https://www.stats.govt.nz/'],
+ ['council','Christchurch City Council open data','government','dataset_licence','Dataset-specific ArcGIS service and licence verification','https://opendata-christchurchcity.hub.arcgis.com/'],
+ ['ecan','Environment Canterbury open information','government','dataset_licence','Verify particular public dataset or permitted API',null],
+ ['mbie','MBIE / regional economic reports','government','approved_import','Use authorised open downloads or publisher feeds',null],
+ ['weather','MetService / authoritative weather','environment','licenced_api_or_import','Provider terms, forecasts vs observations separated',null],
+ ['public-holidays','Employment NZ public holiday calendar','environment','manual_or_approved_feed','Verify year, region and legal date source','https://www.govt.nz/browse/work/public-holidays-and-work/'],
+ ['school-holidays','NZ Ministry of Education school terms','environment','manual_or_approved_feed','Verify school year and published official dates','https://www.education.govt.nz/']
+];
+export const sourceRegistry=Object.freeze(definitions.map(([id,name,category,accessMethod,dependency,officialUrl])=>Object.freeze({id,name,category,accessMethod,dependency,officialUrl,automationVerified:false,retention:'Verify licence and purpose before retention or reuse',provenance:'Require original URL, publisher and retrieval timestamp',frequency:'not_scheduled',rateLimit:'provider_specific_unverified'})));

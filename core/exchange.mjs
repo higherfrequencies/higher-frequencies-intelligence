@@ -1,0 +1,1 @@
+export function receive(input){if(!input?.id||!input.source)throw Error('Invalid event');return {item:{...input,receivedAt:new Date().toISOString()}}} export function dispatch(item){return {destination:item.kind==='alert'?'system':'research',id:item.id,advisoryOnly:true}}
